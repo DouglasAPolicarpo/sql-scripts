@@ -43,4 +43,4 @@ SELECT
 FROM CTE_Calendario
 WHERE NOT EXISTS (SELECT 1 FROM Calendario WHERE Data = CTE_Calendario.Data)
 OPTION (MAXRECURSION 0);
---
+-- Teste
